@@ -1,0 +1,43 @@
+body{
+    background-color: #f8ffff;
+}
+
+.site-header{
+    display: flex;
+    vertical-align: center;
+    background-color: #f7f7f7;
+}
+
+.selection-bar{
+    display: flex;
+    padding: 30px;
+    vertical-align: center;
+
+    background-color: #434d54;
+}
+
+.conatainer-1{
+    display: flex;
+}
+
+.name{
+    vertical-align: center;
+}
+
+.result{
+    display: flex;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image:hover{
+    box-shadow: 5px 5px 3px grey;
+    transition: 1s ease-in-out;
+    transform: scale(1.2, 1.2)
+
+}
+
+
+
